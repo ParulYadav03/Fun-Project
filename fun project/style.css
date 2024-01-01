@@ -1,0 +1,78 @@
+body{
+    background-color: darkslategrey;
+}
+.out{
+    height: 50px;
+    width: auto;
+    color: aliceblue;
+    padding-top: 198px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+.yes{
+    margin-left: px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.yes:hover{
+    background-color: darkslategrey;
+    opacity: 1px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+.no{
+    margin-left: px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    position: relative;
+}
+.no:hover{
+    background-color: darkslategrey;
+    opacity: 1px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes moving{
+    0%{ 
+        top: 0px;
+        left: 5px;
+    }
+    25%{top:250px;
+        right: 2px;
+    }
+    75%{top:250px;
+        right: 2px;
+    }
+    100%{top:250px;
+        right: 2px;
+    }
+}
+.but{
+    height: 80px;
+    width: auto;
+    text-align: center;
+}

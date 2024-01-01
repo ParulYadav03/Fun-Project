@@ -1,0 +1,23 @@
+body{
+    background-color:darkslategrey;
+}
+.love{
+    height: 50px;
+    width: auto;
+    color: aliceblue;
+    padding-top: 198px;
+    padding-bottom: 28px;
+    text-align: center;
+    margin-top: px;
+}
+.go{
+    height: 50px;
+    width: auto;
+    color: aliceblue;
+    padding-bottom: 28px;
+    text-align: center;
+    margin-top: px;
+}
+.image{
+    margin-left: 40%;
+}
